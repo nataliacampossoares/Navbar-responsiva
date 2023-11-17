@@ -7,5 +7,9 @@ function menu(){
         menuIcon.setAttribute("src", "./imagens/menu.svg")
         menuMobile.style.left = '-100%'
     }
+    else if (menuIcon.getAttribute("src") === "./imagens/menu.svg"){
+        menuIcon.setAttribute("src", "./imagens/close.svg")
+        menuMobile.style.left = '0%'
+    }
         
 }
